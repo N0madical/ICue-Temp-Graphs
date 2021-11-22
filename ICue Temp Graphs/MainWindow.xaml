@@ -10,7 +10,7 @@
         <Rectangle Height="30" Fill="Black" VerticalAlignment="Top" Width="auto" Margin="0,0,0,0"/>
         <Image HorizontalAlignment="Left" Height="28" Margin="1,1,0,0" VerticalAlignment="Top" Width="28" Source="/pinpng.com-overwatch-play-of-the-4334449.png"/>
         <TextBlock HorizontalAlignment="Left" Margin="40,5,0,0" TextWrapping="Wrap" Text="Unofficial ICue Temperature Grapher" VerticalAlignment="Top" Foreground="White" Width="456"/>
-        <ListView x:Name="ListViewPeople" HorizontalAlignment="Left" VerticalAlignment="Top" Width="auto" Height="9996" Margin="20,50,20,20" Background="#FF131313" BorderBrush="Black" Foreground="White" UseLayoutRounding="False" HorizontalContentAlignment="Center">
+        <ListView x:Name="ListViewPeople" HorizontalAlignment="Left" VerticalAlignment="Top" Width="auto" Height="auto" Margin="20,50,20,20" Background="#FF131313" BorderBrush="Black" Foreground="White" UseLayoutRounding="False" HorizontalContentAlignment="Center">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="200" DisplayMemberBinding="{Binding Path=TimeStamp}"/>
